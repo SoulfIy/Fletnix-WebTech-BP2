@@ -1,0 +1,641 @@
+
+/* Reset browser standaard Styling CSS - - - - - - - - - - - - - - - */
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    background: #1a1a1a;
+}
+
+h6 {
+    display: block;
+    float: left;
+
+    color: white;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+
+    margin: 0;
+    padding: 15px 32px;
+
+    border-right: 1px solid #2e2e2e;
+}
+
+/* Navigatie bar Styling CSS - - - - - - - - - - - - - - - */
+.header-navbar ul {
+    z-index: 1;
+
+    margin: 0;
+    padding: 0 20%;
+
+    position: fixed;
+    top: 0;
+
+    background: #101010;
+
+    width: 100%;
+    height: 50px;
+
+    list-style-type: none;
+    border-bottom: 2px solid #F2C811;
+}
+
+.header-navbar li {
+    float: left;
+}
+
+.header-navbar li a {
+    display: block;
+    cursor: pointer;
+
+    margin: 0;
+    padding: 16px 32px;
+
+    color: #FFFFFF;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+
+    text-decoration: none;
+}
+
+.header-navbar li:hover {
+    background: #F2C811; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#b1930c, #F2C811); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#b1930c, #F2C811); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#b1930c, #F2C811); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#b1930c, #F2C811); /* Standard syntax */
+}
+
+.header-navbar li a.active {
+    padding: 15px 32px;
+
+    background: #2e2e2e; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#1a1a1a, #2e2e2e); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#1a1a1a, #2e2e2e); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#1a1a1a, #2e2e2e); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#1a1a1a, #2e2e2e); /* Standard syntax */
+}
+
+/* Homepage Content Styling CSS - - - - - - - - - - - - - - - */
+
+.content {
+    background: #1e1e1e;
+    flex-direction: column;
+
+    text-shadow: 4px 4px 10px #000000;
+
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+.content h1 {
+    color: white;
+    font-family: Roboto, Arial, sans-serif;
+    text-align: center;
+    font-size: 40px;
+
+    margin-bottom: 10%;
+    padding-top: 40px;
+}
+
+.deeleen {
+    background-image: url('images/welkompicture.png');
+    height: 640px;
+
+    padding-top: 40px;
+    padding-right: 20%;
+    padding-bottom: 0;
+    padding-left: 20%;
+}
+
+.check {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.kenmerken {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    color: #FFFFFF;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 16px;
+
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 20%;
+}
+
+.kenmerken p {
+    margin: 0;
+    letter-spacing: 2px;
+
+    font-size: 20px;
+}
+
+.button {
+    display: flex;
+}
+
+.mainbuttondeco {
+    justify-content: center;
+    margin: 10% auto;
+
+    cursor: pointer;
+
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid white;
+    box-shadow: 20px 20px 40px #000000;
+
+    width: 200px;
+    height: 50px;
+
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: white;
+}
+
+.mainbuttondeco:hover {
+    background: #F2C811;
+    border: 2px solid #F2C811;
+    text-shadow: 0 0 0 #000000;
+
+    transition-duration: 0.1s;
+}
+
+.deeltwee {
+    background: #2a2a2a;
+
+    padding-top: 40px;
+    padding-right: 20%;
+    padding-bottom: 60px;
+    padding-left: 20%;
+
+    border-top: 2px solid #F2C811;
+}
+
+.deeltwee h2 {
+    padding-left: 20px;
+
+    color: white;
+    font-family: Roboto, Arial, sans-serif;
+    text-align: start;
+    font-size: 22px;
+}
+
+/* MoviePoster Styling CSS - - - - - - - - - - - - - - - */
+
+.movieposter {
+    width: 175px;
+    height: 250px;
+
+    cursor: pointer;
+
+    border: 2px solid rgba(255, 140, 0, 0);
+    border-radius: 2px;
+
+    filter: brightness(80%);
+}
+
+.movieposter:hover {
+    border: 2px solid #F2C811;
+
+    filter: brightness(100%);
+}
+
+/* Abonnementskeuze Styling CSS - - - - - - - - - - - - - - - */
+
+.abonnementen {
+    display: flex;
+    background: #2a2a2a;
+    justify-content: space-between;
+    border-top: 2px solid #F2C811;
+
+    height: 640px;
+
+    font-family: Roboto, Arial, sans-serif;
+    color: white;
+
+    padding-top: 40px;
+    padding-right: 20%;
+    padding-bottom: 120px;
+    padding-left: 20%;
+}
+
+.abonnementen h3 {
+    width: 100px;
+    border: 2px solid white;
+
+    color: white;
+    text-align: center;
+
+    margin: 0 20px;
+    padding: 5px 20px;
+}
+
+td {
+    border-bottom: 1px solid #D7DAE7;
+}
+
+table tfoot{
+    border-bottom: none;
+}
+
+.featuretitel {
+    font-weight: bold;
+    font-size: 18px;
+
+    padding-top: 20px;
+}
+
+.featuretitel p {
+    font-family: Raleway, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+
+    margin-top: 5px;
+    padding-top: 0;
+}
+
+.welofniet {
+    text-align: center;
+}
+
+table .koopbutton {
+    display: flex;
+}
+
+.koopbutton {
+    justify-content: center;
+    margin: 10% auto;
+
+    cursor: pointer;
+
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid white;
+
+    width: 150px;
+    height: 40px;
+
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: white;
+}
+
+.koopbutton:hover {
+    background: #F2C811;
+    border: 2px solid #F2C811;
+    text-shadow: 0 0 0 #000000;
+
+    transition-duration: 0.1s;
+}
+
+.abonnementtoelichting {
+    padding-top: 80px;
+    padding-right: 20%;
+    padding-bottom: 40px;
+    padding-left: 20%;
+}
+
+.abonnementtoelichting h1 {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 40px;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.abonnementtoelichting p {
+    font-family: Raleway, Arial, sans-serif;
+    color: white;
+}
+
+/* Over ons Styling CSS - - - - - - - - - - - - - - - */
+
+.overons {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.overonstekst {
+    padding-top: 40px;
+    padding-right: 20%;
+    padding-bottom: 40px;
+    padding-left: 20%;
+}
+
+.overonstekst h2 {
+    color: #ffffff;
+    font-family: Roboto, Arial, sans-serif;
+    text-align: left;
+}
+
+.overonstekst p {
+    color: #ffffff;
+    font-family: Raleway, Arial, sans-serif;
+    text-align: left;
+}
+
+.overonsbuttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    background: #2a2a2a;
+
+    padding-top: 0;
+    padding-right: 20%;
+    padding-bottom: 0;
+    padding-left: 20%;
+
+    border-top: 2px solid #F2C811;
+}
+
+.overonsbuttons p {
+    margin: 0 50px;
+
+    font-family: Raleway, Arial, sans-serif;
+    color: white;
+
+    line-height: 130px;
+}
+
+.overonsbuttondeco {
+    justify-content: center;
+    margin: 5% 0 5% 0;
+    padding: 0;
+
+    cursor: pointer;
+
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid white;
+
+    width: 160px;
+    height: 40px;
+
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: white;
+}
+
+.overonsbuttondeco:hover {
+    background: #F2C811;
+    border: 2px solid #F2C811;
+}
+
+/* Contact Styling CSS - - - - - - - - - - - - - - - */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0;
+
+    color: white;
+}
+
+.contactinfo {
+    padding: 40px 20%;
+}
+
+.contactinfo h2 {
+    font-family: Roboto, Arial, sans-serif;
+}
+
+.contactinfo p {
+    font-family: Raleway, Arial, sans-serif;
+}
+
+.contactform {
+    display: flex;
+    flex-direction: row;
+
+    background: #2a2a2a;
+    border-top: 2px solid #F2C811;
+
+    padding: 0 20% 30px 20%;
+}
+
+.contactform p {
+    margin: 30px 0 0 0;
+    padding: 5px 10px;
+
+    font-family: Raleway, Arial, sans-serif;
+}
+
+.contactform p em, .contactform em {
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 12px;
+    color: lightgray;
+}
+
+.contactform input {
+    width: 250px;
+    height: 30px;
+
+    text-align: center;
+    color: white;
+
+    border: 2px solid white;
+    background: none;
+
+    font-family: Raleway, Arial, sans-serif;
+}
+
+.contactform textarea {
+    width: 500px;
+    height: 250px;
+
+    max-width: 500px;
+    max-height: 250px;
+
+    text-align: start;
+    color: white;
+
+    border: 2px solid white;
+    background: none;
+
+    font-family: Raleway, Arial, sans-serif;
+}
+
+.contactformeen {
+    width: 300px;
+
+    padding-bottom: 50px;
+    border-right: 2px solid #4e4e4e;
+}
+
+.contactformtwee {
+    width: 500px;
+}
+
+.contactformbutton input {
+    margin-top: 20px;
+    padding: 0;
+
+    cursor: pointer;
+
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid white;
+
+    width: 250px;
+    height: 40px;
+
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: white;
+}
+
+.contactformbutton input:hover {
+    background: #F2C811;
+    border: 2px solid #F2C811;
+}
+
+/* Filmaanbod Styling CSS - - - - - - - - - - - - - - - */
+
+.filmaanbod {
+    display: flex;
+    flex-direction: column;
+}
+
+.actualiteiten {
+    justify-content: center;
+
+    margin: 0 auto;
+
+    padding-top: 40px;
+    padding-right: 20%;
+    padding-bottom: 40px;
+    padding-left: 20%;
+}
+
+.actualiteiten h1 {
+    font-family: Roboto, Arial, sans-serif;
+    color: white;
+}
+
+.aanbod {
+    background: #2a2a2a;
+
+    padding-top: 40px;
+    padding-right: 20%;
+    padding-bottom: 60px;
+    padding-left: 20%;
+
+    border-top: 2px solid #F2C811;
+}
+
+.aanbod h2 {
+    font-family: Roboto, Arial, sans-serif;
+    color: white;
+}
+
+.lijst {
+    padding-bottom: 25px;
+
+    border-bottom: 2px solid #4e4e4e;
+}
+
+/* Gebruiksvoorwaarden Styling CSS - - - - - - - - - - - - - - - */
+
+.gebruiksvoorwaarden {
+    padding: 40px 20% 80px 20%;
+
+    color: white;
+}
+
+.gebruiksvoorwaarden h2 {
+    font-family: Roboto, Arial, sans-serif;
+}
+
+.gebruiksvoorwaarden p {
+    font-family: Raleway, Arial, sans-serif;
+}
+
+/* Footer Styling CSS - - - - - - - - - - - - - - - */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+
+    background: #101010;
+
+    border-top: 2px solid #F2C811;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+
+    margin: 0 20%;
+    padding: 0 25px;
+
+    color: #bbbbbb;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    text-align: left;
+
+    border-bottom: 1px solid #1e1e1e;
+}
+
+.footer-content li {
+    list-style-type: square;
+}
+
+.footer-content li a {
+    text-decoration: none;
+
+    color: #888888;
+}
+
+.footer-content h4 {
+    justify-content: center;
+
+    margin: 25px 25px -10px 20px;
+}
+
+.footer-content-support {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-content-rally {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-content-voorwaarden {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-copyright {
+    margin: 25px;
+
+    color: #545454;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
