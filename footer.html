@@ -29,6 +29,8 @@
                     <li><a href="filmaanbod.php">Filmaanbod</a></li>
                     <li><a href="over-ons.php">Over ons</a></li>
                     <li><a href="zoeken.php">Zoeken</a></li>
+                    <li><a href="registratiescherm.php">Registreren</a></li>
+                    <li><a href="loginscherm.php">Inloggen</a></li>
                     <li><a href="contact.php">Contact</a></li>
                 </ul>
 
@@ -48,6 +50,9 @@
         <div class="footer-copyright">
 
             Copyright © 2016 - 2017 FLETNIX Inc. All rights reserved.
+            <?php
+            echo 'logged in as: '.$_SESSION['gebruiker'];
+            ?>
 
         </div>
 

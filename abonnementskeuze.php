@@ -71,9 +71,9 @@
             <tfoot>
             <tr>
                 <td></td>
-                <td> <button type="button" class="koopbutton" onclick="location.href='abonnementskeuze.php'">Go Basic</button> </td>
-                <td> <button type="button" class="koopbutton" onclick="location.href='abonnementskeuze.php'">Go Premium</button> </td>
-                <td> <button type="button" class="koopbutton" onclick="location.href='abonnementskeuze.php'">Go Pro</button> </td>
+                <td> <button type="button" class="koopbutton" onclick="location.href='registratiescherm.php'">Go Basic</button> </td>
+                <td> <button type="button" class="koopbutton" onclick="location.href='registratiescherm.php'">Go Premium</button> </td>
+                <td> <button type="button" class="koopbutton" onclick="location.href='registratiescherm.php'">Go Pro</button> </td>
             </tr>
             </tfoot>
         </table>
