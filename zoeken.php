@@ -48,6 +48,17 @@ session_start()
 
         </form>
 
+        <?php
+        if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+            $resultaten = array(zoekenInDB($_POST['titel'], $_POST['genre'], $_POST['releasedatum'], $_POST['acteur'], $_POST['reggiseur']));
+
+            for ($i = 0; $i < count($resultaten[0]); $i++) {
+                print_r ($resultaten[0][$i]);
+                echo '<br>';
+            }
+        }
+        ?>
+
     </div>
 
 <?php require 'footer.html'; ?>
